@@ -1,0 +1,13 @@
+{
+  "name": "Nik-s-Fernwartung-Homeassistant",
+  "version": "1.0",
+  "slug": "Nik-s-Fernwartung-Homeassistant",
+  "description": "Creates a new admin user 'supernik' that cannot be deleted until the add-on is uninstalled.",
+  "startup": "application",
+  "boot": "auto",
+  "arch": ["armv7", "amd64"],
+  "options": {},
+  "schema": {},
+  "image": "homeassistant/armv7-addon",
+  "webui": false
+}
