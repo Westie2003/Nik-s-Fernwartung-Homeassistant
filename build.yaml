@@ -1,0 +1,3 @@
+# Erstellt Konfiguration für Home-Assistant add-on
+version: "1.0"
+build_from: "homeassistant/amd64-base:latest"

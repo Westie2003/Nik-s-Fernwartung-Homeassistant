@@ -1,8 +1,7 @@
-# Use the official Home Assistant base image
-FROM homeassistant/armv7-addon
+# Dockerdatei für Home Assistant add-on
+FROM homeassistant/amd64-base:latest
 
-# Copy the main.py script into the container
-COPY main.py /usr/src/app/
+COPY run.sh /run.sh
+RUN chmod +x /run.sh
 
-# Set the entrypoint for the add-on
-ENTRYPOINT [ "python3", "/usr/src/app/main.py" ]
+CMD [ "/run.sh" ]

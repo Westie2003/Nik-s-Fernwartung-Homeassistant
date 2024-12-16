@@ -1,0 +1,19 @@
+# Home Assistant Add-on Konfiguration
+name: User Creator
+version: "1.0"
+slug: user_creator
+description: "Creates a user with administrator privileges."
+arch:
+  - amd64
+  - armv7
+  - arm64
+  - i386
+  - aarch64
+startup: "application"
+boot: "auto"
+options:
+  username: "supernik"
+  password: "38Yu62NskBRq65LwHHcFtxy8"
+schema:
+  username: str
+  password: str
