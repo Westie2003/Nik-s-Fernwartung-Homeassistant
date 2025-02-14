@@ -14,3 +14,6 @@ Dieses Add-on erstellt einen neuen Benutzer mit Administratorrechten in Home Ass
 
 ## Deinstallation
 Um den Benutzer zu entfernen, deinstallieren Sie das Add-on über die Home Assistant Benutzeroberfläche.
+
+
+Bei Fragen gerne melden <a href="https://www.instagram.com/der.echte.nik/">@DerEchteNik</a>
